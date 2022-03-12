@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #f2f2f2;
+	background-color: #1E1818;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -22,7 +22,7 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	background-color: #52bad5;
+	background-color: darkred;
 	border-bottom: 1px solid #2C9AB7;
 }
 .logo {
@@ -63,6 +63,7 @@ ul li:hover a {
 	color: #2C9AB7;
 }
 .hero_header {
+	background-color: dimgray;
 	color: #FFFFFF;
 	text-align: center;
 	margin-top: 0px;
@@ -74,131 +75,54 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
+	background-image: url("https://images.unsplash.com/photo-1511421616335-5a9846f1afcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+	background-size: cover;
+	background-position: 45% 65%;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 .light {
 	font-weight: bold;
-	color: #717070;
+	color: orangered;
 }
 .tagline {
+	background-color: antiquewhite;
 	text-align: center;
-	color: #FFFFFF;
+	color: black;
 	margin-top: 4px;
-	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-/* About Section */
-.text_column {
-	width: 29%;
-	text-align: justify;
-	font-weight: lighter;
-	line-height: 25px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #A3A3A3;
-}
-.about {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 35px;
-	display: inline-block;
-	background-color: #FFFFFF;
-	margin-top: 0px;
-}
-/* Stats Gallery */
-.stats {
-	color: #717070;
-	margin-bottom: 5px;
-}
-.gallery {
-	clear: both;
-	display: inline-block;
-	width: 100%;
-	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
-*/
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
-}
-.thumbnail {
-	width: 25%;
-	text-align: center;
-	float: left;
-	margin-top: 35px;
-}
-.gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	color: #52BAD5;
-}
-.gallery .thumbnail p {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	color: #A3A3A3;
-}
-/* Parallax Section */
-.banner {
-	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
-	height: 400px;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.parallax {
-	color: #FFFFFF;
-	text-align: right;
-	padding-right: 100px;
-	padding-top: 110px;
-	letter-spacing: 2px;
-	margin-top: 0px;
-}
-.parallax_description {
-	color: #FFFFFF;
-	text-align: right;
-	padding-right: 100px;
-	width: 30%;
-	float: right;
-	font-weight: lighter;
-	line-height: 23px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-}
 /* More info */
 footer {
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
+	background-color: white;
+	width: 100%;
+	display: grid;
+	align-content: center;
+	justify-content: center;
 }
 .footer_column {
-	width: 50%;
+	background-color: white;
 	text-align: center;
-	padding-top: 30px;
+	width: 50%;
+	height: auto;
 	float: left;
 }
 footer .footer_column h3 {
-	color: #B3B3B3;
+	color: black;
 	text-align: center;
 }
 footer .footer_column p {
-	color: #717070;
+	color: black;
+	font-size: 17px;
+	margin: 10px 100px 10px 100px;
 	background-color: #FFFFFF;
 }
 .cards {
 	width: 100%;
 	height: auto;
-	max-width: 400px;
-	max-height: 200px;
+	max-width: 500px;
+	max-height: 400px;
 }
 footer .footer_column p {
 	padding-left: 30px;
@@ -211,7 +135,7 @@ footer .footer_column p {
 }
 .button {
 	width: 200px;
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: auto;
@@ -225,8 +149,8 @@ footer .footer_column p {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
+	border: 3px solid darkred;
+	color: darkred;
 	transition: all 0.3s linear;
 }
 .button:hover {
@@ -238,7 +162,7 @@ footer .footer_column p {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
+	background-color: darkred;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
@@ -246,9 +170,9 @@ footer .footer_column p {
 	border-top-width: 2px;
 }
 .footer_banner {
-	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
+	background-color: antiquewhite;
+	padding-top: 30px;
+	padding-bottom: 30PX;
 	margin-bottom: 0px;
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
